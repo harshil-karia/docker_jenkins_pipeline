@@ -6,12 +6,6 @@ pipeline {
                 checkout scm
             }
         }
-
-        stage("Test"){
-            steps{
-                sh 'sudo apt install npm'
-            }
-        }
         stage("Build Image"){
             steps{
                 sh 'docker build -t mihir2109/dockerpipeline .'
