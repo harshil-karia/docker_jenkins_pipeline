@@ -16,9 +16,9 @@ COPY . .
 # Run the command "npm install" to install all dependencies listed in the package.json file.
 RUN npm install
 
+# Inform Docker that the container will listen on port 3000 at runtime.
+EXPOSE 3000
+
 # Specify the command to run when the container starts.
 # Here, it will run "node index.js" to start your Node.js application.
 CMD [ "node", "index.js" ]
-
-# Inform Docker that the container will listen on port 3000 at runtime.
-EXPOSE 3000
