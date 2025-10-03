@@ -19,7 +19,7 @@ git branch -M main
 
 # Add a new remote repository with the name "origin". 
 #The URL provided is the location of your remote repository on GitHub.
-git remote add origin https://github.com/mihirh19/dockerpipeline.git
+git remote add origin https://github.com/harshil-karia/dockerpipeline.git
 
 # Push the changes from the local "main" branch to the remote repository. 
 # The -u flag sets the remote "origin" as the default for the current branch.
