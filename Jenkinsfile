@@ -9,6 +9,7 @@ pipeline {
         }
         stage('Stage 2') {
             steps {
+                sh 'exit 1'
                 echo 'Running Stage 2'
             }
         }
